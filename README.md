@@ -197,7 +197,7 @@ public void welcomeMessage(String email, String username);
 
 ## 🧩 7. Documentation Swagger / OpenAPI
 
-### ➤ Configuration (classe : SwaggerConfig.java)
+### ➤ Configuration (classe : OpenApiConfig.java)
 ```java
 @Configuration
 @OpenAPIDefinition(
