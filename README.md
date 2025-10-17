@@ -217,8 +217,8 @@ public class OpenApiConfig {
 
 | Interface | URL |
 |-----------|-----|
-| Swagger UI | http://localhost:8080/swagger-ui.html |
-| Spécification JSON (OpenAPI) | http://localhost:8080/api-docs |
+| Swagger UI | http://localhost:7777/swagger-ui.html |
+| Spécification JSON (OpenAPI) | http://localhost:7777/api-docs |
 
 ---
 
