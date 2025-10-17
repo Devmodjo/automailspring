@@ -244,7 +244,7 @@ L'API peut être étendue avec une authentification par token (JWT) ou HTTP Basi
 ## 🚀 10. Exemple de test Swagger
 
 Une fois ton application démarrée, accède à :
-👉 http://localhost:8080/swagger-ui.html
+👉 http://localhost:7777/swagger-ui.html
 
 Tu verras :
 ```
