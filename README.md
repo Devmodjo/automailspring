@@ -9,12 +9,12 @@
 
 ---
 
-**Version :** 1.0.0
-**Auteur :**  Modjo Victor
-**Date :** Octobre 2025
-**Technologie :** Spring Boot 3 / Java 17+ / Springdoc OpenAPI 2.6.0
-**Base de données :** H2 (persistante)
-**Documentation interactive :** http://localhost:7777/swagger-ui.html
+* **Version :** 1.0.0
+* **Auteur :**  Modjo Victor
+* **Date :** Octobre 2025
+* **Technologie :** Spring Boot 3 / Java 17+ / Springdoc OpenAPI 2.6.0
+* **Base de données :** H2 (persistante)
+* **Documentation interactive :** http://localhost:7777/swagger-ui.html
 
 ---
 
