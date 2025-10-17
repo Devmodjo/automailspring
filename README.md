@@ -59,8 +59,8 @@ com.example.mailapi
 ├── service
 │   └── EmailService.java
 ├── config
-│   └── SwaggerConfig.java
-└── MailApiApplication.java
+│   └── OpenApiConfig.java
+└── AutomaticMailApplication.java
 ```
 
 ---
