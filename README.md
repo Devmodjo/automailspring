@@ -269,7 +269,7 @@ Chaque endpoint aura :
 | Langage principal | Java 17 |
 | Framework | Spring Boot 3 |
 | Auteur / Responsable | Victor Modjo |
-| Contact support | modjovictor.vercel.app/contact |
+| Contact support | [https://modjovictor.vercel.app/contact](https://modjovictor.vercel.app/contact) |
 
 ---
 
