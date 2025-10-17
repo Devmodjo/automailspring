@@ -268,8 +268,8 @@ Chaque endpoint aura :
 | Dernière mise à jour | 16 octobre 2025 |
 | Langage principal | Java 17 |
 | Framework | Spring Boot 3 |
-| Auteur / Responsable | Victor Kamsu |
-| Contact support | tonemail@example.com |
+| Auteur / Responsable | Victor Modjo |
+| Contact support | modjovictor.vercel.app/contact |
 
 ---
 
