@@ -4,6 +4,7 @@ package com.victormodjo.automaticMail.controller;
 import com.victormodjo.automaticMail.model.Users;
 import com.victormodjo.automaticMail.repository.UserRepository;
 import com.victormodjo.automaticMail.services.EmailService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -50,7 +51,7 @@ public class UserController {
             @ApiResponse(responseCode = "500", description = "Erreur interne du serveur", content = @Content)
     })
     @PostMapping
-    public Users registerUser(@RequestBody Users user) {
+    public Users registerUser(@Valid @RequestBody Users user) {
         emailService.welcomeMessage(user.getEmail(), user.getUsername());
         return userRepository.save(user);
     }

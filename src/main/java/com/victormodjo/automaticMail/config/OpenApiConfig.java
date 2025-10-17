@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
                 title = "Mail Automation API",
                 version = "1.0",
                 contact = @Contact(name = "by Modjo Victor", email = "yvankamsu88@gmail.com", url = "https://modjovictor.vercel.app"),
-                description = "cette api permet d'envoi l'heure automatique au utilisateur inscrit"
+                description = "cette api permet d'envoi l'heure automatique aux utilisateur inscrits"
         )
 
 )

@@ -8,6 +8,7 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 
 /**
  * Service de gestion de l'envoi de mail
@@ -23,7 +24,7 @@ public class EmailService {
         SimpleMailMessage mailMessage = new SimpleMailMessage();
         mailMessage.setTo(to);
         mailMessage.setSubject("Heure Actuel...");
-        mailMessage.setText("Bonjour " + name + " \uD83D\uDE0A  il est actuellement " + LocalDate.now() + ".");
+        mailMessage.setText("Bonjour " + name + " \uD83D\uDE0A  il est actuellement " + LocalTime.now() + ".");
 
         javaMailSender.send(mailMessage);
     }
@@ -37,6 +38,9 @@ public class EmailService {
    
                 Nous sommes heureux de vous compter parmi nous !
                 Votre inscription a bien été enregistrée.
+                
+                et un mail vous seras envoyé toute les 5 minutes
+                indiquant l'heure actuelle dans votre localisation
                 
                 L’équipe Mail Automation.
                 """);

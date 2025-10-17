@@ -27,7 +27,7 @@ public class SchedulerService {
         this.emailService = emailService;
     }
 
-    @Scheduled(fixedRate = 3600) // toutes les 3,6s
+    @Scheduled(fixedRate = 300000) // toutes les 5 minutes
     public void sendEmailsToAllUsers() {
         List<Users> users = userRepository.findAll();
         log.info("Envoi automatique aux " + users.size() + " utilisateurs...");
