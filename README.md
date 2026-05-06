@@ -30,7 +30,7 @@ Elle est développée en **Spring Boot** et documentée via **Swagger / OpenAPI*
 - Permettre une documentation interactive et testable via Swagger
 
 ---
-
+  
 ## ⚙️ 2. Technologies utilisées
 
 | Outil / Framework | Rôle |
